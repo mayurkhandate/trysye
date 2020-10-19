@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* navbar start */
+.navbar-center { 
+    position: relative; 
+    left: 50%; 
+    transform: translatex(-50%); 
+} 
+
+/* navbar end */
+
+
+
+/* common changes start */
+
+.discount{
+    color: green;
+}
+
+.fa-star{
+    color: orange;
+}
+
+.fa-star-half-o{
+    color: orange;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.card img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+/* common changes end */
+
+/* container 1  start*/
+
+/* .container-1{
+    background: radial-gradient(#fff, #ffd6d6);
+} */
+
+.btn{
+    width: 100px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+}
+
+
+.btn:hover{
+    transition: background 0.5s;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* container 1  end */
+
+
+
+/* container 5 start */
+.container-{
+    border: 2px solid black;
+}
+
+/* container 5 end */
+
+.card-img-down{
+    border-radius: 50%;
+    width: 50%;
+}
+
