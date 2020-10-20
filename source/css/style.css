@@ -1,3 +1,5 @@
+/* LOGO COLOR #8D6440 */
+
 *{
     margin: 0;
     padding: 0;
@@ -5,18 +7,34 @@
 }
 
 
-
 body{
     font-family: 'Lato', sans-serif;
+    color: #8D6440;
+    background-color: rgb(0, 0, 0);
 }
 
 
 /* navbar start */
+.nav-bg{
+    background-color: black;
+    color: #8D6440;
+}
+
 .navbar-center { 
     position: relative; 
     left: 50%; 
     transform: translatex(-50%); 
+    
 } 
+
+.nav-link{
+    color: #8D6440 !important;
+}
+
+.nav-link:hover{
+    background-color: white;
+}
+
 
 /* navbar end */
 
@@ -29,59 +47,135 @@ body{
 }
 
 .fa-star{
-    color: orange;
+    color: red;
 }
 
 .fa-star-half-o{
-    color: orange;
+    color: red;
 }
 
 .card{
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(245, 245, 245, 0.034);
 }
 
-.card img{
+.card-img-top{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    
 }
 
-/* common changes end */
+.card-product{
+    width: 16rem; 
+    height: 24rem;
+}
 
-/* container 1  start*/
+.card-product > p{
+    color: black;
+}
 
-/* .container-1{
-    background: radial-gradient(#fff, #ffd6d6);
-} */
+.card-product > .card-img-top {
+    height: 55%;
+}
 
 .btn{
     width: 100px;
     border-radius: 50px;
-    background-color: red;
+    background-color: #8D6440;
     color: white;
+    box-shadow: 0px 0px 10px rgba(245, 245, 245, 0.034);
 }
 
 
 .btn:hover{
     transition: background 0.5s;
-    background-color: black;
-    color: white;
+    background-color: whitesmoke;
+    color: #8D6440;
 }
 
+/* .bottom-line{
+    position: relative;
+    top: -45px;
+    left: 515px;
+    background-color: #8D6440;
+    width: 8%;
+    height: 4px;
+    border-radius: 10px;
+} */
 
 
-/* container 1  end */
+
+/* common changes end */
+
+/* container 1 start */
+.container-1 .row{
+        border: 1px solid #8D6440;
+}
+
+/* container 1 end  */
 
 
-
-/* container 5 start */
+/* container 5 Exculisve  start */
 .container-{
     border: 2px solid black;
 }
 
-/* container 5 end */
+/* container 5 Exculsive end */
 
-.card-img-down{
-    border-radius: 50%;
-    width: 50%;
+
+/* container 6 Testimonials start  */
+.card-testimonial{
+    width: 20rem; 
+    height: 24rem;
 }
 
+.card-testimonial > .card-img-down{
+    border-radius: 50%;
+    width: 50%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+/* container 6 Testimonials end */
+
+
+/* container 7 collaboration start */
+
+.container-7 img{
+    width :100%;
+    height: auto;
+
+}
+
+/* container 7 collaboration end */
+
+
+
+/* container 5 exculsive start */
+.container-5 .row{
+    border: 1px solid #8D6440;
+}
+
+/* container 5 exculsive end */
+
+
+/* footer start */
+.footer{
+    background-color: black;
+    color: ;
+}
+
+.footer a{
+    color:  #8D6440;
+    text-decoration: none;
+}
+
+/* .footer hr{
+    background-color: #8D6440;
+
+} */
+
+.footer .row{
+        border: 1px solid #8D6440;
+}
+
+/* footer end */
