@@ -67,7 +67,7 @@ body{
 
 .card-product{
     width: 16rem; 
-    height: 24rem;
+    height: 25rem;
 }
 
 .card-product > p{
@@ -75,7 +75,7 @@ body{
 }
 
 .card-product > .card-img-top {
-    height: 55%;
+    height: 60%;
 }
 
 .btn{
@@ -179,3 +179,23 @@ body{
 }
 
 /* footer end */
+
+
+
+/* container account start */
+.container-account .btn{
+    margin-left: 25%;
+}
+
+.container-account .btn:hover{
+    background-color: #8D6440;
+    color: whitesmoke;
+}
+
+.contact-p{
+    color: black;
+}
+
+/* container account end */
+
+
