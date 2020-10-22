@@ -199,3 +199,14 @@ body{
 /* container account end */
 
 
+
+
+@media only screen and (max-width: 768px){
+ .container-7 img{
+    width :35%;
+ }
+
+ .navbar-center{
+     align-items: flex-end;
+ }
+}
